@@ -1,13 +1,14 @@
-package java.springboot;
+package springcrud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CrudWebAppApplication {
+public class main {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CrudWebAppApplication.class, args);
+		// TODO Auto-generated method stub
+		SpringApplication.run(main.class, args);
 	}
 
 }
