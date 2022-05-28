@@ -1,5 +1,9 @@
 package service;
 
-public interface EmployeeService {
+import java.util.*;
 
+import model.Employee;
+
+public interface EmployeeService {
+List<Employee> getAllEmployees();
 }
